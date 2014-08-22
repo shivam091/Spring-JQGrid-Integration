@@ -4,8 +4,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-import java.util.Date;
-
 import org.junit.Before;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -33,8 +31,8 @@ public class StudentRepositoryTests {
 		studentEntity = new StudentEntity();
 		studentEntity.setStudentFirstName("ABC");
 		studentEntity.setStudentLastName("XYZ");
-		studentEntity.setStudentBirthDate(new Date());
-		studentEntity.setStudentQualification("PQR");
+		studentEntity.setStudentBirthDate("2014-07-27 16:35:20");
+		studentEntity.setStudentQualification("M.Sc.Computer Science");
 	}
 	
 	@Test
@@ -58,12 +56,12 @@ public class StudentRepositoryTests {
 	}
 	
 	@Test
-	public void bFindAllStudentDetailsTests() {
+	public void dFindAllStudentDetailsTests() {
 		assertTrue(studentService.findAllStudents().size() > 0);
 	}
 	
 	@Test(expected = IllegalArgumentException.class)
-	public void bDeleteStudentDetailsTests() {
+	public void eDeleteStudentDetailsTests() {
 		StudentEntity studentEntity = studentService.findStudentById(1);
 		assertNotNull(studentService.deleteStudentDetails(studentEntity));
 	}

@@ -1,0 +1,49 @@
+
+.monitor {
+    background: none repeat scroll 0 0 #000000;
+    border: 1px solid #cccccc;
+    color: #ffffff;
+    height: 600px;
+    overflow: auto;
+    padding: 4px;
+}
+.title {
+    font-size: 35px;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+}
+.control {
+    margin-top: 5px;
+}
+#eventTable {
+    border: 0 solid;
+    text-align: center;
+    width: 100%;
+}
+#menu {
+    background-color: #333;
+    width: 100%;
+}
+#menu ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a {
+    background-color: #333;
+    color: white;
+    float: left;
+    padding: 10.5px 11px;
+    text-decoration: none;
+}
+#menu ul li a:visited {
+    color: white;
+}
+#menu ul li a:hover, #menu ul li .current {
+    background-color: #0b75b2;
+    color: #fff;
+}

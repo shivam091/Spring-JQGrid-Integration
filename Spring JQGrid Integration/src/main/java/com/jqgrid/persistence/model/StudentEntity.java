@@ -1,16 +1,12 @@
 package com.jqgrid.persistence.model;
 
 import java.io.Serializable;
-import java.util.Date;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.validation.constraints.NotNull;
-
 import org.hibernate.validator.constraints.NotEmpty;
 
 @Entity
@@ -25,16 +21,16 @@ public class StudentEntity implements Serializable{
 	private Integer studentId;
 	
 	@NotEmpty
-	@Column(name = "STUDENT_FIRST_NAME", length = 20)
+	@Column(name = "STUDENT_FIRST_NAME", length = 30)
 	private String studentFirstName;
 	
 	@NotEmpty
-	@Column(name = "STUDENT_LAST_NAME", length = 20)
+	@Column(name = "STUDENT_LAST_NAME", length = 30)
 	private String studentLastName;
 	
-	@NotNull
-	@Column(name = "STUDENT_BIRTH_DATE", length = 20)
-	private Date studentBirthDate;
+	@NotEmpty
+	@Column(name = "STUDENT_BIRTH_DATE", length = 50)
+	private String studentBirthDate;
 	
 	@NotEmpty
 	@Column(name = "QUALIFATION", length = 50)
@@ -64,11 +60,11 @@ public class StudentEntity implements Serializable{
 		this.studentLastName = studentLastName;
 	}
 
-	public Date getStudentBirthDate() {
+	public String getStudentBirthDate() {
 		return studentBirthDate;
 	}
 
-	public void setStudentBirthDate(Date studentBirthDate) {
+	public void setStudentBirthDate(String studentBirthDate) {
 		this.studentBirthDate = studentBirthDate;
 	}
 
