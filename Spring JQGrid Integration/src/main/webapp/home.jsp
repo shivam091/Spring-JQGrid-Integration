@@ -263,7 +263,6 @@
 			  // Get the currently selected row
 			  var row = $("#grid").jqGrid('getGridParam','selrow');
 			  var celValue = $("#grid").jqGrid ('getCell', row, 'studentId');
-			  alert(celValue);
 			  // A pop-up dialog will appear to confirm the selected action
 			  if( row != null )
 			      $("#grid").jqGrid( 'delGridRow', row,

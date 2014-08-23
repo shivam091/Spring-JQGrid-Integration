@@ -2,6 +2,15 @@ package com.jqgrid.web.controller.response;
 
 import java.util.List;
 
+/**
+ * A simple POJO that maps to the JSON structure of a jqGrid. 
+ * <p> 
+ 
+The property names of this POJO must match the property names of your jqGrid's jsonReader.
+ * 
+ * @see <a href="http://www.trirand.com/jqgridwiki/doku.php?id=wiki:retrieving_data#json_data">JSON Data</a>
+ *
+ */
 public class JQGridTable {
 
 	/**
@@ -24,7 +33,9 @@ public class JQGridTable {
 	 */
 	private List<?> rows;
 
-	public JQGridTable() {}
+	public JQGridTable() {
+		
+	}
 	
 	public String getPage() {
 		return page;
@@ -37,6 +48,7 @@ public class JQGridTable {
 	public String getTotal() {
 		return total;
 	}
+	
 	public void setTotal(String total) {
 		this.total = total;
 	}

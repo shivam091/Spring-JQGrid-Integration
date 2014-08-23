@@ -9,9 +9,14 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import org.hibernate.validator.constraints.NotEmpty;
 
+/**
+ * Persistence class to manipulate data within the database table
+ * @author shivam
+ *
+ */
 @Entity
 @Table(name = "STUDENT_DETAILS", schema = "student")
-public class StudentEntity implements Serializable{
+public class StudentEntity implements Serializable {
 
 	private static final long serialVersionUID = -9025482195617462917L;
 
