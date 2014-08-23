@@ -58,28 +58,6 @@
 			<version>2.1</version>
 			<scope>provided</scope>
 		</dependency>
-		
-		<!-- Tiles Integration -->
-		<dependency>
-			<groupId>org.apache.tiles</groupId>
-			<artifactId>tiles-core</artifactId>
-			<version>${apache.tiles.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.tiles</groupId>
-			<artifactId>tiles-jsp</artifactId>
-			<version>${apache.tiles.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.tiles</groupId>
-			<artifactId>tiles-api</artifactId>
-			<version>${apache.tiles.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.tiles</groupId>
-			<artifactId>tiles-extras</artifactId>
-			<version>${apache.tiles.version}</version>
-		</dependency>
 
 		<!-- Miscellaneous -->
 		<dependency>
@@ -296,12 +274,6 @@
 			<artifactId>tomcat-jdbc</artifactId>
 			<version>${tomcat-jdbc.version}</version>
 			<scope>runtime</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-taglibs</artifactId>
-			<version>3.2.3.RELEASE</version>
 		</dependency>
 
 		<!-- A seamless aspect-oriented extension to the Java programming language -->
