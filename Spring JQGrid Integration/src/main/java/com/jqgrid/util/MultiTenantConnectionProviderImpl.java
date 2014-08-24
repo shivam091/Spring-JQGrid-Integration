@@ -41,7 +41,6 @@ public class MultiTenantConnectionProviderImpl implements
 	@SuppressWarnings("rawtypes")
 	@Override
 	public boolean isUnwrappableAs(Class unwrapType) {
-		// TODO Auto-generated method stub
 		 return ConnectionProvider.class.equals(unwrapType) || MultiTenantConnectionProvider.class.equals(unwrapType) || MultiTenantConnectionProviderImpl.class.isAssignableFrom(unwrapType);
 	}
 	
@@ -93,7 +92,6 @@ public class MultiTenantConnectionProviderImpl implements
 
 	@Override
 	public boolean supportsAggressiveRelease() {
-		// TODO Auto-generated method stub
 		return false;
 	}
 

@@ -19,7 +19,6 @@ public class MultiTenantConnectionProviderImplMultiCP extends AbstractMultiTenan
 		try {
 			DriverManager.registerDriver(new Driver());
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -55,7 +54,6 @@ public class MultiTenantConnectionProviderImplMultiCP extends AbstractMultiTenan
 					+ "user=" + username + "&password=" + password);
 
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
