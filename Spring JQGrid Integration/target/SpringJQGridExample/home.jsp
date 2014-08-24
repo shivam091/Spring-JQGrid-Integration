@@ -1,8 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<%@taglib prefix="sec"
-	uri="http://www.springframework.org/security/tags"%>
 <c:url value="${pageContext.request.contextPath}" var="rootUrl" />
 <c:url value="/resources" var="resourcesUrl" />
 
@@ -111,7 +109,7 @@
 		  });
 		
 		  $("#grid").jqGrid('navGrid','#pager',
-		          {edit:false,add:false,del:false,search:true},
+		          {view:true,edit:false,add:false,del:false,search:false},
 		          { },
 		          { },
 		          { },

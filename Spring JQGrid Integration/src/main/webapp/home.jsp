@@ -109,7 +109,7 @@
 		  });
 		
 		  $("#grid").jqGrid('navGrid','#pager',
-		          {edit:false,add:false,del:false,search:true},
+		          {view:true,edit:false,add:false,del:false,search:false},
 		          { },
 		          { },
 		          { },
