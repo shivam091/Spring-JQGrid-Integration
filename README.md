@@ -4,19 +4,21 @@ This example will explain you how to use JQGrid with Spring MVC.
 Integration tutorial for JQGrid, Spring MVC, Hibernate, and MySQL.
 This example is based on multitenancy and uses no JPA.
 
-###Building with Maven
-1. Ensure Maven is installed
-2. Open a command window (Windows) or a terminal (Linux/Mac)
-3. Run the following command:
-
-	mvn tomcat:run
-
 ###Import the project in Eclipse
 1. Ensure Maven is installed
 2. Open a command window (Windows) or a terminal (Linux/Mac)
 3. Run the following command:
 
 	mvn eclipse:eclipse -Dwtpversion=2.0
+
+###Building with Maven
+1. Ensure Maven is installed
+2. Open a command window (Windows) or a terminal (Linux/Mac)
+3. Run the following command:
+
+	mvn tomcat:run
+	
+And browse to [http://localhost:8080/grid/](http://localhost:8080/grid/).![Build Status](http://i1272.photobucket.com/albums/y389/harshal091/passing_zpsb61e9184.png?t=1408901662)https://github.com/shivam091/Spring-JQGrid-Integration)
 
 ##Downloads
 Source is hosted at the [Spring-JQGrid-Integration GitHub repository](https://github.com/shivam091/Spring-JQGrid-Integration/). 
@@ -57,4 +59,5 @@ Downloads are also available on the [GitHub project's Downloads section] (https:
 ######mysql-connector-java:5.1.22
 ######aspectjrt:1.6.10
 ######aspectweaver:1.6.10
+
 
