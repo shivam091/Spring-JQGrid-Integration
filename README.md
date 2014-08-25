@@ -19,7 +19,7 @@ This example is based on multitenancy and uses no JPA.
 	mvn tomcat:run
 	
 And browse to [http://localhost:8080/grid/](http://localhost:8080/grid/).![Build Status](http://i1272.photobucket.com/albums/y389/harshal091/passing_zpsb61e9184.png?t=1408901662)
-![Screenshot](http://i1272.photobucket.com/albums/y389/harshal091/JQGrid_zps91e80bdc.png)
+![Screenshot](http://i1272.photobucket.com/albums/y389/harshal091/JQGrid_zpsec453e49.png)
 
 ##Downloads
 Source is hosted at the [Spring-JQGrid-Integration GitHub repository](https://github.com/shivam091/Spring-JQGrid-Integration/). 
