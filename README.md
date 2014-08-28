@@ -2,7 +2,7 @@
 ===========
 This example will explain you how to use JQGrid with Spring MVC.
 Integration tutorial for JQGrid, Spring MVC, Hibernate, and MySQL.
-This example is based on multitenancy and uses no JPA.
+This example is based on multitenancy and uses JPA annotations.
 
 ###Import the project in Eclipse
 1. Ensure Maven is installed
