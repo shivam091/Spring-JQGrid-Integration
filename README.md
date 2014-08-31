@@ -22,7 +22,7 @@ And browse to [http://localhost:8080/grid/](http://localhost:8080/grid/).![Build
 ![Screenshot](http://i1272.photobucket.com/albums/y389/harshal091/JQGrid_zpsec453e49.png)
 
 ##Downloads
-Source is hosted at the [Spring-JQGrid-Integration GitHub repository](https://github.com/shivam091/Spring-JQGrid-Integration/). 
+Source is hosted at the [Spring-JQGrid-Integration GitHub repository](https://github.com/shivam091/Spring-JQGrid-Integration.git). 
 Downloads are also available on the [GitHub project's Downloads section] (https://github.com/shivam091/Spring-JQGrid-Integration/downloads)
 
 ##Dependencies
@@ -60,3 +60,4 @@ Downloads are also available on the [GitHub project's Downloads section] (https:
 ######mysql-connector-java:5.1.22
 ######aspectjrt:1.6.10
 ######aspectweaver:1.6.10
+
